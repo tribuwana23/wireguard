@@ -11,8 +11,9 @@ sudo apt install wireguard
 ```
 
 Create configuration file
-
+```sh
 sudo nano /etc/wireguard/wg0.conf
+```
 and add following client configuration that you have generated from server before, example :
 ```sh
 [Interface]
