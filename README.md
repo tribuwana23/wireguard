@@ -36,7 +36,7 @@ Now you should be connected to your Ubuntu VPN server, and the traffic from your
 sudo wg
 ```
 and the output should be like:
-```sh
+`
 interface: wg0
   public key: HFqTSN2SE6LvvEU/xV3eJ0KArQEkTx1mYZpAjRtAjwE=
   private key: (hidden)
@@ -48,7 +48,7 @@ peer: 8Mg3Vgw+QduVhJaLERXQbyrPL1/nUWa27Ly8ZVTGTHs=
   allowed ips: 0.0.0.0/0
   latest handshake: 1 minute, 18 seconds ago
   transfer: 67.58 KiB received, 170.36 KiB sent
-```
+`
 ## 4. Start at Boot
 If you want to to start your WireGuard after every system reboot just run:
 ```sh
