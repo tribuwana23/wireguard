@@ -1,8 +1,8 @@
-## 1. Install wireguard server
+## 1. Install wireguard server ubuntu
 run `wireguard-install.sh` scrip for easy install wireguard server and follow all step
 after install wireguard server you can add more client with run the sript again 
 
-## 2. Install wireguard on client
+## 2. Install wireguard on client ubuntu
 First we update our Ubuntu host machine then install WireGuard:
 
 ```sh
